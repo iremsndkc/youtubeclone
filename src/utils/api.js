@@ -2,9 +2,9 @@ import axios from "axios";
 const api = axios.create({
     baseURL: import.meta.env.VITE_API_URL,
     params: {
-        geo: 'TR',
-        type: 'music',
-        lang: 'tr'
+        //geo: 'TR',
+        //type: 'music',
+        //lang: 'tr'
       },
       //timeout: 5000,
       headers: {
